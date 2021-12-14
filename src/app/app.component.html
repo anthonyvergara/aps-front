@@ -1,0 +1,61 @@
+
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="https://www.iconpacks.net/icons/2/free-tree-icon-1578-thumb.png"
+  />
+  <span>GESTÃO AMBIENTAL</span>
+</div>
+
+<div class="content">
+
+  <div class="row">
+    <div class="col-xl-4 ">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col mr-2">
+              <div class="h5 mb-0 font-weight-bold text-gray-800">ISO 14000</div>
+              <div class="text-xs font-weight-bold text-uppercase mb-1">Gestão Ambiental</div>
+              
+                <div class="card-footer text-center">
+                  <button (click)="Listar()" class="btn btn-warning">Listar normas</button>       
+                  <button (click)="Add()" class="btn btn-success" style="margin-left: 10px;">Adicionar norma</button>          
+                </div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-calendar fa-2x text-primary"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-xl-8 ">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="row align-items-center">
+            <div class="col mr-2">
+
+              <div class="text-xs font-weight-bold text-uppercase mb-1" style="font-size: 10px;">
+                A série de normas ISO 14000 correspondem a um Sistema de Gestão Ambiental (SGA) editado pela ISO (International Organization for Standardization). Esta série de normas apresenta diretrizes para Auditorias Ambientais, Avaliação do Desempenho Ambiental, Rotulagem Ambiental e Análise do Ciclo de Vida dos Produtos. Ou seja, especifica os requisitos relativos a um sistema de gestão ambiental, de modo a permitir que a organização formule políticas e objetivos que levem em conta os requisitos legais e as informações referentes aos impactos ambientais significativos.
+      A finalidade desta série de normas é equilibrar a proteção ambiental e a prevenção de poluição com as necessidades sociais e econômicas.
+      Entretanto, esta norma não estabelece requisitos absolutos para o desempenho ambiental, além do comprometimento, expresso na política, de atender à legislação e regulamentos aplicáveis e do compromisso com a melhoria contínua. Assim, duas organizações que desenvolvam atividades similares, mas que apresentem níveis diferentes de desempenho ambiental, podem, ambas, atender aos seus requisitos. Dessa forma, a adoção desta norma não garante, por si só, resultados ambientais ótimos.
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  
+  <div class="row">
+
+  </div>
+    
+</div>
+
+<router-outlet></router-outlet>

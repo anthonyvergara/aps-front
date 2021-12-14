@@ -1,0 +1,15 @@
+<div class="container">
+    <form action="">
+        <div class="form-group">
+          <label for="formGroupExampleInput">Nome da norma</label>
+          <input [(ngModel)]="norma.nome" name="nome" type="text" class="form-control" id="formGroupExampleInput" placeholder="Exemplo ISO 14000">
+        </div>
+        <div class="form-group" style="margin-top: 10px;">
+            <label for="exampleFormControlTextarea1">Descrição da norma</label>
+            <textarea [(ngModel)]="norma.conteudo" name="conteudo" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div style="margin-top: 10px;">
+            <button (click)="Add()" class="btn btn-success">Adicionar norma</button> 
+        </div>
+    </form>
+</div>
